@@ -1,0 +1,31 @@
+body {
+  text-align: center;
+  background-color: #000;
+  background-image: url('src/halo_background.jpg');
+  background-size: cover;
+  color: #00ff88;
+  font-family: 'Orbitron', sans-serif;
+}
+
+#personaje {
+  width: 400px;
+  margin-top: 20px;
+  transition: 0.3s;
+}
+
+.botones img {
+  width: 80px;
+  margin: 10px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.botones img:hover {
+  transform: scale(1.1);
+}
+
+.camo {
+  width: 25px !important;
+  height: auto !important;
+  transform: scale(0.8);
+}
